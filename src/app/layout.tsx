@@ -24,6 +24,8 @@ const navlinks: { name: string; href: string }[] = [
   { name: "Chat", href: "/ui/chat" },
   { name: "System Prompt", href: "/ui/system-prompt" },
   { name: "Structured Data", href: "/ui/structured-data" },
+  { name: "Structured Array", href: "/ui/structured-array" },
+  { name: "Structured Enum", href: "/ui/structured-enum" },
 ];
 
 export default function RootLayout({

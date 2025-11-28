@@ -1,12 +1,12 @@
 import { streamText, UIMessage, convertToModelMessages } from "ai";
-import { groq } from "@ai-sdk/groq";
+import { google } from "@ai-sdk/google";
 
 export async function POST(req: Request) {
   try {
     const { messages }: { messages: UIMessage[] } = await req.json();
 
     const result = streamText({
-      model: groq("meta-llama/llama-4-scout-17b-16e-instruct"), // this is a multimodal model work with images and text
+      model: google("gemini-2.5-flash"),
       messages: convertToModelMessages(messages),
     });
 

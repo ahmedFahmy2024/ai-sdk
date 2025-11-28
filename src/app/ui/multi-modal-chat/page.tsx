@@ -60,6 +60,20 @@ export default function MultiModalChatPage() {
                     />
                   );
                 }
+
+                if (part.mediaType?.startsWith("application/pdf")) {
+                  return (
+                    <iframe
+                      key={`${message.id}-${index}`}
+                      src={part.url}
+                      title={part.filename ?? `attachment-${index}`}
+                      width="100%"
+                      height="600px"
+                    />
+                  );
+                }
+
+                return null;
               default:
                 return null;
             }
@@ -106,6 +120,7 @@ export default function MultiModalChatPage() {
               id="file-upload"
               type="file"
               className="hidden"
+              accept=".jpg,.jpeg,.png,.webp,.pdf"
               onChange={(event) => {
                 if (event.target.files) {
                   setFiles(event.target.files);

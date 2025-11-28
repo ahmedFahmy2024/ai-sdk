@@ -27,6 +27,7 @@ const navlinks: { name: string; href: string }[] = [
   { name: "Structured Array", href: "/ui/structured-array" },
   { name: "Structured Enum", href: "/ui/structured-enum" },
   { name: "Multi-Modal Chat", href: "/ui/multi-modal-chat" },
+  { name: "Generate Image", href: "/ui/generate-image" },
 ];
 
 export default function RootLayout({

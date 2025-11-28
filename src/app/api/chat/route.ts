@@ -5,7 +5,7 @@ export async function POST(req: Request) {
   try {
     const { messages }: { messages: UIMessage[] } = await req.json();
 
-    const result = await streamText({
+    const result = streamText({
       model: groq("llama-3.1-8b-instant"),
       messages: convertToModelMessages(messages),
     });

@@ -26,6 +26,7 @@ const navlinks: { name: string; href: string }[] = [
   { name: "Structured Data", href: "/ui/structured-data" },
   { name: "Structured Array", href: "/ui/structured-array" },
   { name: "Structured Enum", href: "/ui/structured-enum" },
+  { name: "Multi-Modal Chat", href: "/ui/multi-modal-chat" },
 ];
 
 export default function RootLayout({

@@ -31,6 +31,7 @@ const navlinks: { name: string; href: string }[] = [
   { name: "Transcribe Audio", href: "/ui/transcribe-audio" },
   { name: "Generate Speech", href: "/ui/generate-speech" },
   { name: "Tools Chat", href: "/ui/tools" },
+  { name: "Multiple Tools Chat", href: "/ui/multiple-tools" },
 ];
 
 export default function RootLayout({

@@ -29,6 +29,8 @@ const navlinks: { name: string; href: string }[] = [
   { name: "Multi-Modal Chat", href: "/ui/multi-modal-chat" },
   { name: "Generate Image", href: "/ui/generate-image" },
   { name: "Transcribe Audio", href: "/ui/transcribe-audio" },
+  { name: "Generate Speech", href: "/ui/generate-speech" },
+  { name: "Tools Chat", href: "/ui/tools" },
 ];
 
 export default function RootLayout({
@@ -42,7 +44,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <nav>
-          <ul className="flex items-center justify-center gap-8 p-4 border-b border-zinc-200 dark:border-zinc-800 mb-8">
+          <ul className="flex items-center justify-center gap-8 p-4 border-b border-zinc-200 dark:border-zinc-800 mb-8 flex-wrap">
             {navlinks.map((link) => (
               <li key={link.href}>
                 <Link href={link.href}>{link.name}</Link>

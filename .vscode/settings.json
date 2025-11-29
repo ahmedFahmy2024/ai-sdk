@@ -6,5 +6,6 @@
     "navlinks",
     "schnell",
     "togetherai"
-  ]
+  ],
+  "git.ignoreLimitWarning": true
 }

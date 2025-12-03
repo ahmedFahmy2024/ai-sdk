@@ -4,9 +4,11 @@
     "imagekit",
     "kimi",
     "localtime",
+    "modelcontextprotocol",
     "moonshotai",
     "navlinks",
     "schnell",
+    "Streamable",
     "togetherai"
   ],
   "git.ignoreLimitWarning": true

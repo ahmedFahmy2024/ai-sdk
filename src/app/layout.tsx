@@ -36,6 +36,7 @@ const navlinks: { name: string; href: string }[] = [
   { name: "Web Search Tool", href: "/ui/web-search-tool" },
   { name: "Generate Image Tool", href: "/ui/generate-image-tool" },
   { name: "Client Side Tools", href: "/ui/client-side-tools" },
+  { name: "Mcp Tools Chat", href: "/ui/mcp-tools" },
 ];
 
 export default function RootLayout({

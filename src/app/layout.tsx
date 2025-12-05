@@ -39,6 +39,7 @@ const navlinks: { name: string; href: string }[] = [
   { name: "Mcp Tools Chat", href: "/ui/mcp-tools" },
   { name: "Reasoning Chat", href: "/ui/reasoning" },
   { name: "Message Metadata", href: "/ui/message-metadata" },
+  { name: "Provider Management", href: "/ui/provider-management" },
 ];
 
 export default function RootLayout({

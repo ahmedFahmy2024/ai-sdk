@@ -38,6 +38,7 @@ const navlinks: { name: string; href: string }[] = [
   { name: "Client Side Tools", href: "/ui/client-side-tools" },
   { name: "Mcp Tools Chat", href: "/ui/mcp-tools" },
   { name: "Reasoning Chat", href: "/ui/reasoning" },
+  { name: "Message Metadata", href: "/ui/message-metadata" },
 ];
 
 export default function RootLayout({
